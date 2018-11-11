@@ -1,0 +1,14 @@
+---
+global:
+  owner: ryankwon95@gmail.com
+  qsname: taskcat-demo
+  regions:
+    - us-east-2
+    - us-east-1
+    - us-west-1
+    - us-west-2
+  reporting: true
+tests:
+  taskcat-scenario1:
+    parameter_input: bucket-parameters.json
+    template_file: create-bucket.yaml

@@ -7,5 +7,5 @@ Resources:
 
 Parameters:
   BucketName: 
-    Decription: Name of bucket 
+    Description: Name of bucket 
     Type: String

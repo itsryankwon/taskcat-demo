@@ -2,4 +2,10 @@
 Resources:
   MyS3Bucket:
     Type: "AWS::S3::Bucket"
-    Properties: {}
+    Properties:
+      BucketName: !Ref BucketName
+
+Parameters:
+  BucketName: 
+    Decription: Name of bucket 
+    Type: String

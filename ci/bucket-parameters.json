@@ -1,6 +1,6 @@
 [
     {
-        "ParameterKey": "None",
-        "ParameterValue": "None"
+        "ParameterKey": "BucketName",
+        "ParameterValue": "bucketsfordemo-$[taskcat_random-numbers]"
     }
 ]
